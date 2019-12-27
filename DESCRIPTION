@@ -1,13 +1,16 @@
 Package: SC19058
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Multivariate test of equality of multi-sample based on DISCO
 Version: 1.0
 Date: 2019-12-27
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or more full
-         sentences.
+Author: Qiyuan Liu
+Maintainer: Qiyuan Liu<hy980505@mail.ustc.edu.cn>
+Description: implement the basic ideas of energy statistics to solve 
+             hypothesis test:multivariate test for equal distributions 
+             and estimate the empirical powers through permutation test.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.3)
 LinkingTo: Rcpp
 RoxygenNote: 7.0.2
+Encoding: UTF-8
+VignetteBuilder: knitr
