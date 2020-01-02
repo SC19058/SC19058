@@ -5,3 +5,14 @@ rcpp_hello_world <- function() {
     .Call('_SC19058_rcpp_hello_world', PACKAGE = 'SC19058')
 }
 
+#' @title Random walk Metropolis using Rcpp
+#' @description Implement the random walk version of the Metropolis using Rcpp
+#' @param sigma the variance
+#' @param x0 the intial location
+#' @param N the total steps
+#' @return a list conclude x and the number of accpetance times \code{accept}
+#' @export
+rw_Metropolis_c <- function(x0, sigma, N) {
+    .Call('_SC19058_rw_Metropolis_c', PACKAGE = 'SC19058', x0, sigma, N)
+}
+
