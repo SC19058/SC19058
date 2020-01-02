@@ -9,7 +9,7 @@ Description: implement the basic ideas of energy statistics to solve
              hypothesis test:multivariate test for equal distributions 
              and estimate the empirical powers through permutation test.
 License: GPL (>= 2)
-Imports: Rcpp (>= 1.0.3)
+Imports: Rcpp (>= 1.0.3), knitr, rmarkdown
 LinkingTo: Rcpp
 RoxygenNote: 7.0.2
 Encoding: UTF-8
